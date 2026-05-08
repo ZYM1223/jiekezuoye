@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS地图系统</title>
+    <!-- 引入地图库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="结课作业.css">
+</head>
+<body>
+
+    <div class="header">WebGIS地图展示</div>
+    <div id="map">
+        <div class="coordinate-display" id="coord">经度: -- 纬度: --</div>
+        <div class="tool-panel">
+            <button class="tool-btn" id="drawPoint">标注点</button>
+            <button class="tool-btn" id="drawLine">绘制线</button>
+            <button class="tool-btn" id="drawPolygon">绘制面</button>
+            <button class="tool-btn" id="clearDraw">清除图形</button>
+        </div>
+    </div>
+
+    <!-- 引入JS功能 -->
+    <script src="结课作业.js"></script>
+</body>
+</html>
